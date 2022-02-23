@@ -113,7 +113,7 @@ spec:
       terminationGracePeriodSeconds: 30
       dnsPolicy: ClusterFirst
       securityContext:
-        runAsUser: 0
+        runAsNonRoot: true
       schedulerName: default-scheduler
   strategy:
     type: RollingUpdate
