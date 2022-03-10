@@ -5,6 +5,7 @@ metadata:
   namespace: default
   labels:
     app: hello-node
+    app.kubernetes.io/instance: madeup-application-name
 spec:
   replicas: 1
   selector:
